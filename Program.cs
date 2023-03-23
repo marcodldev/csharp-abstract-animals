@@ -33,6 +33,7 @@ Cane cane1 = new Cane();
 Passerotto passerotto1 = new Passerotto();
 Aquila aquila1 = new Aquila();
 Delfino delfino1 = new Delfino();
+PulcinellaDiMare pulcinella1 = new PulcinellaDiMare();
 
 
 void FaiVolare(Ivolante Animale )
@@ -49,7 +50,7 @@ void FaiVolare(Ivolante Animale )
 
 
 Console.WriteLine("Attributi del cane:");
-Console.WriteLine($"Puo' dormire?:");
+Console.WriteLine($"Attiviamo la funzione 'Dormi' per farlo dormire");
 cane1.Dormi();
 Console.WriteLine($"Verso: {cane1.VersoEmesso}");
 Console.WriteLine($"Cibo: {cane1.Cibo}");
@@ -77,4 +78,9 @@ FaiNuotare(delfino1);
 
 Console.WriteLine(System.Environment.NewLine);
 
+Console.WriteLine("Attributi della pulcinella di mare:");
+Console.WriteLine($"Verso: {pulcinella1.VersoEmesso}");
+Console.WriteLine($"Cibo: {pulcinella1.Cibo}");
+FaiVolare(pulcinella1);
+FaiNuotare(pulcinella1);
 
