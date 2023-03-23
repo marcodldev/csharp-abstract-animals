@@ -52,35 +52,35 @@ void FaiVolare(Ivolante Animale )
 Console.WriteLine("Attributi del cane:");
 Console.WriteLine($"Attiviamo la funzione 'Dormi' per farlo dormire");
 cane1.Dormi();
-Console.WriteLine($"Verso: {cane1.VersoEmesso}");
-Console.WriteLine($"Cibo: {cane1.Cibo}");
+Console.WriteLine($"Verso: {cane1.verso}");
+Console.WriteLine($"Cibo: {cane1.cibo}");
 
 Console.WriteLine(System.Environment.NewLine) ;
 
 Console.WriteLine("Attributi del passerotto:");
-Console.WriteLine($"Verso: {passerotto1.VersoEmesso}");
-Console.WriteLine($"Cibo: {passerotto1.Cibo}");
+Console.WriteLine($"Verso: {passerotto1.verso}");
+Console.WriteLine($"Cibo: {passerotto1.cibo}");
 FaiVolare(passerotto1);
 
 Console.WriteLine(System.Environment.NewLine);
 
 Console.WriteLine("Attributi dell'aquila:");
-Console.WriteLine($"Verso: {aquila1.VersoEmesso}");
-Console.WriteLine($"Cibo: {aquila1.Cibo}");
+Console.WriteLine($"Verso: {aquila1.verso}");
+Console.WriteLine($"Cibo: {aquila1.cibo}");
 FaiVolare(aquila1);
 
 Console.WriteLine(System.Environment.NewLine);
 
 Console.WriteLine("Attributi del delfino:");
-Console.WriteLine($"Verso: {delfino1.VersoEmesso}");
-Console.WriteLine($"Cibo: {delfino1.Cibo}");
+Console.WriteLine($"Verso: {delfino1.verso}");
+Console.WriteLine($"Cibo: {delfino1.cibo}");
 FaiNuotare(delfino1);
 
 Console.WriteLine(System.Environment.NewLine);
 
 Console.WriteLine("Attributi della pulcinella di mare:");
-Console.WriteLine($"Verso: {pulcinella1.VersoEmesso}");
-Console.WriteLine($"Cibo: {pulcinella1.Cibo}");
+Console.WriteLine($"Verso: {pulcinella1.verso}");
+Console.WriteLine($"Cibo: {pulcinella1.cibo}");
 FaiVolare(pulcinella1);
 FaiNuotare(pulcinella1);
 

@@ -8,19 +8,19 @@ namespace csharp_abstract_animals
 {
     public class Cane : Animale
     {
-         string verso = "wof wof";
-         string cibo = "quello che trova";
+        public string verso = "wof wof";
+        public string cibo = "quello che trova";
 
        
-        public string Cibo
-        {
-            get { return cibo; }
-        }
+        //public string Cibo
+        //{
+        //    get { return cibo; }
+        //}
 
-        public string VersoEmesso
-        {
-            get { return verso; }
-        }
+        //public string VersoEmesso
+        //{
+        //    get { return verso; }
+        //}
 
         public override void Verso()
         {

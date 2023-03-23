@@ -8,18 +8,8 @@ namespace csharp_abstract_animals
 {
     public class PulcinellaDiMare : Animale, Ivolante, Inuotante
     {
-        string verso = "qualcosa più intimidatorio di 'cip' immagino.";
-        string cibo = "pesci";
-
-        public string Cibo
-        {
-            get { return cibo; }
-        }
-
-        public string VersoEmesso
-        {
-            get { return verso; }
-        }
+        public string verso = "qualcosa più intimidatorio di 'cip' immagino.";
+        public string cibo = "pesci";
 
         public void Nuota()
         {

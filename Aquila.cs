@@ -8,18 +8,9 @@ namespace csharp_abstract_animals
 {
     public class Aquila : Animale, Ivolante
     {
-         string verso = "rahh rahh";
-         string cibo = "scoiattoli";
+         public string verso = "rahh rahh";
+         public string cibo = "scoiattoli";
 
-        public string Cibo
-        {
-            get { return cibo; }
-        }
-
-        public string VersoEmesso
-        {
-            get { return verso; }
-        }
 
         public void Vola()
         {

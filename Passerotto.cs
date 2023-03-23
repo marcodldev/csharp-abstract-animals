@@ -8,18 +8,8 @@ namespace csharp_abstract_animals
 {
     public class Passerotto : Animale, Ivolante
     {
-         string verso = "Cip";
-         string cibo = "Vermi";
-
-        public string Cibo
-        {
-            get { return cibo; }
-        }
-
-        public string VersoEmesso
-        {
-            get { return verso; }
-        }
+         public string verso = "Cip";
+         public string cibo = "Vermi";
 
         public void Vola()
         {
