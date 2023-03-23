@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Aquila : Animale
+    public class Aquila : Animale, Ivolante
     {
-        readonly string verso = "rahh rahh";
-        readonly string cibo = "scoiattoli";
+         string verso = "rahh rahh";
+         string cibo = "scoiattoli";
 
         public string Cibo
         {
@@ -19,6 +19,11 @@ namespace csharp_abstract_animals
         public string VersoEmesso
         {
             get { return verso; }
+        }
+
+        public void Vola()
+        {
+            Console.WriteLine("L'aquila puo' volare.");
         }
 
         public override void Verso()

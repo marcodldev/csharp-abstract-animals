@@ -8,9 +8,10 @@ namespace csharp_abstract_animals
 {
     public class Cane : Animale
     {
-        readonly string verso = "wof wof";
-        readonly string cibo = "quello che trova";
+         string verso = "wof wof";
+         string cibo = "quello che trova";
 
+       
         public string Cibo
         {
             get { return cibo; }

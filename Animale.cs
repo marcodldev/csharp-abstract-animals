@@ -24,7 +24,7 @@ namespace csharp_abstract_animals
     public abstract class Animale
     {
       
-        void Dormi()
+        public void Dormi()
         {
             Console.WriteLine("ZZzzzz...");
         }

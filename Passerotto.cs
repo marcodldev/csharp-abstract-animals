@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Passerotto : Animale
+    public class Passerotto : Animale, Ivolante
     {
-        readonly string verso = "Cip";
-        readonly string cibo = "Vermi";
+         string verso = "Cip";
+         string cibo = "Vermi";
 
         public string Cibo
         {
@@ -19,6 +19,11 @@ namespace csharp_abstract_animals
         public string VersoEmesso
         {
             get { return verso; }
+        }
+
+        public void Vola()
+        {
+            Console.WriteLine("Il passerotto puo' volare.");
         }
 
         public override void Verso()

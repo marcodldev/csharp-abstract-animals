@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Delfino : Animale
+    public class Delfino : Animale, Inuotante
     {
-        readonly string verso = "non ne ho idea";
-        readonly string cibo = "altri pesci";
+         string verso = "non ne ho idea";
+         string cibo = "altri pesci";
 
         public string Cibo
         {
@@ -19,6 +19,11 @@ namespace csharp_abstract_animals
         public string VersoEmesso
         {
             get { return verso; }
+        }
+
+        public void Nuota()
+        {
+            Console.WriteLine("Il delfino puo' nuotare");
         }
 
         public override void Verso()
