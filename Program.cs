@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using csharp_abstract_animals;
 
-Console.WriteLine("Hello, World!");
 /*
  * 
  * 
@@ -19,9 +18,32 @@ Console.WriteLine("Hello, World!");
  * */
 
 Cane cane1 = new Cane();
+Passerotto passerotto1 = new Passerotto();
+Aquila aquila1 = new Aquila();
+Delfino delfino1 = new Delfino();
 
 Console.WriteLine("Attributi del cane:");
-Console.WriteLine($"Verso: {cane1.VersoCane}");
+Console.WriteLine($"Verso: {cane1.VersoEmesso}");
 Console.WriteLine($"Cibo: {cane1.Cibo}");
+
+Console.WriteLine(System.Environment.NewLine) ;
+
+Console.WriteLine("Attributi del passerotto:");
+Console.WriteLine($"Verso: {passerotto1.VersoEmesso}");
+Console.WriteLine($"Cibo: {passerotto1.Cibo}");
+
+Console.WriteLine(System.Environment.NewLine);
+
+Console.WriteLine("Attributi dell'aquila:");
+Console.WriteLine($"Verso: {aquila1.VersoEmesso}");
+Console.WriteLine($"Cibo: {aquila1.Cibo}");
+
+Console.WriteLine(System.Environment.NewLine);
+
+Console.WriteLine("Attributi del delfino:");
+Console.WriteLine($"Verso: {delfino1.VersoEmesso}");
+Console.WriteLine($"Cibo: {delfino1.Cibo}");
+
+Console.WriteLine(System.Environment.NewLine);
 
 

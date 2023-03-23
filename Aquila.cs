@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Cane : Animale
+    public class Aquila : Animale
     {
-        readonly string verso = "wof wof";
-        readonly string cibo = "quello che trova";
+        readonly string verso = "rahh rahh";
+        readonly string cibo = "scoiattoli";
 
         public string Cibo
         {
