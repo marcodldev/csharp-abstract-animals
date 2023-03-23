@@ -23,7 +23,7 @@ namespace csharp_abstract_animals
 
         public void Nuota()
         {
-            Console.WriteLine("Il delfino puo' nuotare");
+            Console.WriteLine("Il delfino sta nuotando.");
         }
 
         public override void Verso()

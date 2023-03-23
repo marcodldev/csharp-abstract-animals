@@ -35,17 +35,17 @@ Aquila aquila1 = new Aquila();
 Delfino delfino1 = new Delfino();
 
 
-void FaiVolare( )
+void FaiVolare(Ivolante Animale )
     {
-
+        Animale.Vola();
     }
 
-    void FaiNuotare()
+    void FaiNuotare(Inuotante Animale)
     {
-
+         Animale.Nuota();
     }
 
-   
+
 
 
 Console.WriteLine("Attributi del cane:");
@@ -59,21 +59,21 @@ Console.WriteLine(System.Environment.NewLine) ;
 Console.WriteLine("Attributi del passerotto:");
 Console.WriteLine($"Verso: {passerotto1.VersoEmesso}");
 Console.WriteLine($"Cibo: {passerotto1.Cibo}");
-passerotto1.Vola();
+FaiVolare(passerotto1);
 
 Console.WriteLine(System.Environment.NewLine);
 
 Console.WriteLine("Attributi dell'aquila:");
 Console.WriteLine($"Verso: {aquila1.VersoEmesso}");
 Console.WriteLine($"Cibo: {aquila1.Cibo}");
-aquila1.Vola();
+FaiVolare(aquila1);
 
 Console.WriteLine(System.Environment.NewLine);
 
 Console.WriteLine("Attributi del delfino:");
 Console.WriteLine($"Verso: {delfino1.VersoEmesso}");
 Console.WriteLine($"Cibo: {delfino1.Cibo}");
-delfino1.Nuota();
+FaiNuotare(delfino1);
 
 Console.WriteLine(System.Environment.NewLine);
 

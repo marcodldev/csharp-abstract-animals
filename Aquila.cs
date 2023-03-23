@@ -23,7 +23,7 @@ namespace csharp_abstract_animals
 
         public void Vola()
         {
-            Console.WriteLine("L'aquila puo' volare.");
+            Console.WriteLine("L'aquila sta volando.");
         }
 
         public override void Verso()
